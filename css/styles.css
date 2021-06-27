@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.alpha {
+  background: linear-gradient(274.51deg ,rgba(74,0,224, 0.6), rgba(142,45,226, 0.5)), url("../Images/patron-3.png");
+  height: 96px;
+}
+
+.setup {
+  font-family: 'Rubik';
+}
+
+.setup summary {
+  font-weight: 700;
+}
+
+.setup ol {
+  font-family: 'Rubik';
+  font-weight: 400;
+  color: #000000;
+  font-weight: 400;
+  line-height: 24px;
+  padding-inline-start: 25px;
+}
+
+.setup li:hover {
+  background: #5551FF;
+  box-shadow: -25px 0 #5551FF;
+}
+
+summary {
+  list-style-image: url("../Images/Vector-summary.png");
+}
+
+.wrapper {
+  width: 328px;
+  margin: auto;
+}
+
+.variantes summary {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.variantes ul {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #616161;
+  list-style: none;
+  padding-inline-start: 8px;
+  line-height: 24px;
+}
+
+.variantes li:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
