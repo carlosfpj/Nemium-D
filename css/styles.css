@@ -17,6 +17,17 @@ summary {
   height: 96px;
 }
 
+blockquote {
+  border-inline-start: 4px solid #5551FF;
+  margin-inline-start: 0px;
+  padding-inline-start: 16px;
+}
+
+blockquote p {
+  line-height: 32px;
+  text-align: left;
+}
+
 .conceptos summary {
   font-weight: 700;
 }
@@ -44,12 +55,46 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Rubik';
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  margin-block-end: 16px;
+}
+
 p {
   font-family: 'Rubik';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  color: #545454;
+}
+
+pre {
+  font-family: 'Rubik';
+  line-height: 24px;
+  font-size: 16px;
+  padding: 40px;
+  border: 8px solid #5551FF;
+  overflow: auto;
+  border-radius: 8px;
+  box-shadow: -10px 10px 0px #AbAAf6;
+}
+
+.section-1 img{
+  display: block;
+  margin: auto;
 }
 
 .setup {
@@ -71,6 +116,10 @@ p {
 .setup li:hover {
   background: #5551FF;
   box-shadow: -25px 0 #5551FF;
+}
+
+span {
+  color: #5551FF;
 }
 
 .wrapper {
