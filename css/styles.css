@@ -46,6 +46,10 @@ blockquote p {
   box-shadow: -25px 0 #5551FF;
 }
 
+form h3 {
+  text-align: left;
+}
+
 h1 {
   font-family: 'Rubik';
   font-size: 28px;
@@ -70,6 +74,10 @@ h3 {
   font-size: 22px;
   text-align: center;
   margin-block-end: 16px;
+}
+
+img {
+  max-inline-size: 100%;
 }
 
 p {
@@ -97,6 +105,44 @@ pre {
   margin: auto;
 }
 
+.section-3 h2 {
+  font-size: 22px;
+  text-align: left;
+}
+
+.section-3 h2:first-child {
+  margin-block: 40px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.section-3 ol, .section-3 ul {
+  padding-inline-start: 16px;
+  color: #545454;
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.section-3 ul > li {
+  margin-block: 16px;
+}
+
+/*
+To select the last Li of the last Ul of the section 3
+.section-3 ul:last-of-type > li:last-of-type {}
+*/
+
+.section-3 p {
+  text-align: left;
+}
+
+.section-3 ul > li::marker {
+  color: #5551FF;
+}
+
 .setup {
   font-family: 'Rubik';
 }
@@ -116,6 +162,31 @@ pre {
 .setup li:hover {
   background: #5551FF;
   box-shadow: -25px 0 #5551FF;
+}
+
+.slider-bullet {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #8E2DE2;
+}
+
+.slider-bullets-list {
+  margin-block-start: 16px;
+  text-align: center;
+}
+
+.slider-container {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0;
+  scroll-behavior: smooth;
+}
+
+.slider-slide {
+  width: 100%;
 }
 
 span {

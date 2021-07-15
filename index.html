@@ -94,7 +94,7 @@
             <p>- Carlos Pinzón</p>
           </blockquote>
         </section>
-        <section>
+        <section class="section-2">
           <h2>Conceptos Esenciales del Desarrollo Web</h2>
 
           <h3>Qué es HTML</h3>
@@ -146,11 +146,11 @@
           la presentación de documentos HTML</p>
           <img src="Images/css.png" alt="Cascading Style Sheets Image">
         </section>
-        <section>
+        <section class="section-3">
           <h2>Modelo de Caja</h2>
+          <h2>El Modelo de Caja está compuesto por:</h2>
           <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de
           desarrollo avanzadas y de amigable uso.</p>
-          <h2>El Modelo de Caja está compuesto por:</h2>
           <ol>
             <li>Tamaño del Contenido / ancho y alto</li>
             <li>Padding / Relleno</li>
@@ -175,18 +175,18 @@
           </ul>
 
           <div class="slider">
-            <div class="slider-container">
-              <div class="slider-slide">
-                <img src="Images/background.png" id="slide1" alt="">
-              </div>
-              <div class="slider-slide">
-                <img src="Images/css.png" id="slide2" alt="">
-              </div>
-              <div class="slider-slide">
+            <scroll-container class="slider-container">
+              <scroll-page class="slider-slide">
+                <img src="Images/css.png" id="slide1" alt="">
+              </scroll-page>
+              <scroll-page class="slider-slide">
+                <img src="Images/background.png" id="slide2" alt="">
+              </scroll-page>
+              <scroll-page class="slider-slide">
                 <img src="Images/dom.png" id="slide3" alt="">
-              </div>
-            </div>
-            <div class="slider-bullet-list">
+              </scroll-page>
+            </scroll-container>
+            <div class="slider-bullets-list">
               <a href="#slide1" class="slider-bullet"></a>
               <a href="#slide2" class="slider-bullet"></a>
               <a href="#slide3" class="slider-bullet"></a>
