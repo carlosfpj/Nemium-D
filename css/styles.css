@@ -47,12 +47,23 @@ blockquote p {
 }
 
 footer {
+  margin-block-start: 40px;
+  padding-block-start: 48px;
   background: #000000;
   text-align: center;
+  height: 174px;
+}
+
+footer img {
+  margin-inline-end: 19px;
 }
 
 footer p {
   color: #FFFFFF;
+}
+
+form {
+  position: relative;
 }
 
 form h3 {
@@ -95,7 +106,19 @@ h3 {
   margin-block-end: 16px;
 }
 
+input[type="submit"] {
+  position: absolute;
+  right: 23px;
+  bottom: 0px;
+  background-color: #5551FF;
+  border: none;
+  border-radius: 90px;
+  height: 48px;
+  color: #FFFFFF;
+}
+
 input[type="text"], input[type="email"] {
+  box-sizing: border-box;
   height: 48px;
   border: 1px solid #000000;
   margin-block-start: 16px;
@@ -192,6 +215,7 @@ To select the last Li of the last Ul of the section 3
 .setup li:hover {
   background: #5551FF;
   box-shadow: -25px 0 #5551FF;
+  color: white;
 }
 
 .slider-bullet {
