@@ -4,12 +4,12 @@ body {
 
 details[open] summary {
   list-style-image: url("../Images/Details-Summary-Open.png");
-  color: #00000090;
+  color: #000000;
 }
 
 summary {
   list-style-image: url("../Images/Details-Summary-Closed.png");
-  color: #000000;
+  color: #00000090;
 }
 
 .alpha {
@@ -17,15 +17,14 @@ summary {
   height: 96px;
 }
 
-blockquote {
+.blockquote {
   border-inline-start: 4px solid #5551FF;
   margin-inline-start: 0px;
   padding-inline-start: 16px;
 }
 
-blockquote p {
-  line-height: 32px;
-  text-align: left;
+.conceptos {
+  margin-block-end: 40px;
 }
 
 .conceptos summary {
@@ -37,7 +36,7 @@ blockquote p {
   font-weight: 400;
   color: #000000;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 40px;
   padding-inline-start: 25px;
 }
 
@@ -106,6 +105,10 @@ h3 {
   margin-block-end: 16px;
 }
 
+hr {
+  margin-block: 40px;
+}
+
 input[type="submit"] {
   position: absolute;
   right: 23px;
@@ -153,9 +156,32 @@ pre {
   box-shadow: -10px 10px 0px #AbAAf6;
 }
 
+.section-1  h1{
+  margin-block: 0px 16px;
+}
+
+.section-1 h2 {
+  margin-block-end: 40px;
+}
+
+.section-1 h3 {
+  margin-block: 16px;
+}
+
 .section-1 img{
   display: block;
   margin: auto;
+}
+
+.section-1 p {
+  margin-block-end: 40px;
+}
+
+.blockquote p {
+  color: #000000;
+  line-height: 32px;
+  text-align: left;
+  margin-block: 0px;
 }
 
 .section-3 h2 {
@@ -198,6 +224,7 @@ To select the last Li of the last Ul of the section 3
 
 .setup {
   font-family: 'Rubik';
+  margin-block-end: 24px;
 }
 
 .setup summary {
@@ -208,7 +235,7 @@ To select the last Li of the last Ul of the section 3
   font-family: 'Rubik';
   font-weight: 400;
   color: #000000;
-  line-height: 24px;
+  line-height: 40px;
   padding-inline-start: 25px;
 }
 
@@ -257,10 +284,16 @@ span {
   margin: auto;
 }
 
+.variantes li {
+  padding-inline-start: 8px;
+}
+
 .variantes summary {
+  color: #616161;
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 400;
+  margin-block-start: 16px;
 }
 
 .variantes ul {
@@ -270,10 +303,12 @@ span {
   color: #616161;
   list-style: none;
   padding-inline-start: 8px;
-  line-height: 24px;
+  line-height: 40px;
+  margin-block: 16px 40px;
 }
 
 .variantes li:hover {
+  border-radius: 4px;
   background: #000000;
   color: #FFFFFF;
 }
