@@ -21,6 +21,7 @@ summary {
   border-inline-start: 4px solid #5551FF;
   margin-inline-start: 0px;
   padding-inline-start: 16px;
+  margin-block-end: 40px;
 }
 
 .conceptos {
@@ -51,6 +52,7 @@ footer {
   background: #000000;
   text-align: center;
   height: 174px;
+  max-width: 100%;
 }
 
 footer img {
@@ -184,9 +186,19 @@ pre {
   margin-block: 0px;
 }
 
+.section-2 h2 {
+  font-size: 24px;
+  margin-block-end: 40px;
+}
+
+.section-2 h3 {
+  margin-block: 40px 16px;
+}
+
 .section-3 h2 {
   font-size: 22px;
   text-align: left;
+  margin-block: 40px 16px;
 }
 
 .section-3 h2:first-child {
@@ -254,7 +266,7 @@ To select the last Li of the last Ul of the section 3
 }
 
 .slider-bullets-list {
-  margin-block-start: 16px;
+  margin-block: 16px 40px;
   text-align: center;
 }
 
