@@ -324,3 +324,21 @@ span {
   background: #000000;
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 1366px) {
+
+  .header {
+    position: relative;
+  }
+
+  .header-content {
+    position: absolute;
+    width: 208px;
+    left: 1100px;
+  }
+
+  .wrapper {
+    width: 903px;
+    margin-inline-start: 116px;
+  }
+}
