@@ -186,6 +186,18 @@ pre {
   margin-block: 0px;
 }
 
+.section-content {
+  counter-reset: tittleList;
+}
+
+.section-content h3 {
+counter-increment: tittleList;
+}
+
+.section-content h3::before {
+  content: counter(tittleList, decimal) '. ';
+}
+
 .section-2 h2 {
   font-size: 24px;
   margin-block-end: 40px;
@@ -327,14 +339,75 @@ span {
 
 @media screen and (min-width: 1366px) {
 
-  .header {
+  .blockquote {
     position: relative;
+    left: 183px;
+    margin-block: 64px;
+  }
+
+  .blockquote p {
+    font-size: 24px;
+    margin-block-end: 16px;
+  }
+
+  footer p {
+    font-size: 32px;
+  }
+
+  form {
+    margin-block-end: 113px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  hr {
+    margin-block: 64px;
+  }
+
+  input[type="text"] {
+    margin-inline-end: 16px;
+  }
+
+  input[type="submit"] {
+    right: 273px;
+  }
+
+  .section-1 h1 {
+    margin-block: 64px 16px;
+    font-size: 60px;
+  }
+
+  .section-2 {
+    margin-block-end: 154.56px;
+  }
+
+  .section-2 h2 {
+    font-size: 32px;
+  }
+
+  .section-3 h2 {
+    font-size: 24px;
+  }
+
+  .section-3 h2:first-child {
+    font-size: 32px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0px;
   }
 
   .header-content {
     position: absolute;
     width: 208px;
     left: 1100px;
+  }
+
+  .variantes summary {
+    margin-block-start: 64px;
   }
 
   .wrapper {
