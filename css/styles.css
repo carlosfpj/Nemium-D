@@ -21,11 +21,15 @@ summary {
   border-inline-start: 4px solid #5551FF;
   margin-inline-start: 0px;
   padding-inline-start: 16px;
-  margin-block-end: 40px;
+  margin-block: 0px 40px;
 }
 
 .conceptos {
   margin-block-end: 40px;
+}
+
+.conceptos li {
+  margin-block-end: 16px;
 }
 
 .conceptos summary {
@@ -37,7 +41,6 @@ summary {
   font-weight: 400;
   color: #000000;
   font-weight: 400;
-  line-height: 40px;
   padding-inline-start: 25px;
 }
 
@@ -61,6 +64,7 @@ footer img {
 
 footer p {
   color: #FFFFFF;
+  margin-block-end: 16px;
 }
 
 form {
@@ -134,10 +138,6 @@ input::placeholder {
   color: #000000;
 }
 
-img {
-  max-inline-size: 100%;
-}
-
 p {
   font-family: 'Rubik';
   font-weight: 400;
@@ -156,6 +156,7 @@ pre {
   overflow: auto;
   border-radius: 8px;
   box-shadow: -10px 10px 0px #AbAAf6;
+  margin-block: 16px 40px;
 }
 
 .section-1  h1{
@@ -200,11 +201,16 @@ counter-increment: tittleList;
 
 .section-2 h2 {
   font-size: 24px;
-  margin-block-end: 40px;
+  margin-block: 0px 40px;
 }
 
 .section-2 h3 {
   margin-block: 40px 16px;
+}
+
+.section-2 img {
+  max-inline-size: 100%;
+  display: block;
 }
 
 .section-3 h2 {
@@ -226,7 +232,6 @@ counter-increment: tittleList;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-
 }
 
 .section-3 ul > li {
@@ -251,6 +256,10 @@ To select the last Li of the last Ul of the section 3
   margin-block-end: 24px;
 }
 
+.setup li {
+  margin-block-end: 16px;
+}
+
 .setup summary {
   font-weight: 700;
 }
@@ -259,7 +268,6 @@ To select the last Li of the last Ul of the section 3
   font-family: 'Rubik';
   font-weight: 400;
   color: #000000;
-  line-height: 40px;
   padding-inline-start: 25px;
 }
 
@@ -290,6 +298,10 @@ To select the last Li of the last Ul of the section 3
   scroll-behavior: smooth;
 }
 
+.slider img {
+  max-inline-size: 100%;
+}
+
 .slider-slide {
   width: 100%;
 }
@@ -310,6 +322,7 @@ span {
 
 .variantes li {
   padding-inline-start: 8px;
+  margin-block-end: 16px;
 }
 
 .variantes summary {
@@ -327,8 +340,7 @@ span {
   color: #616161;
   list-style: none;
   padding-inline-start: 8px;
-  line-height: 40px;
-  margin-block: 16px 40px;
+  margin-block: 24px 40px;
 }
 
 .variantes li:hover {
@@ -338,6 +350,10 @@ span {
 }
 
 @media screen and (min-width: 1366px) {
+
+  .alpha{
+    height: 350px;
+  }
 
   .blockquote {
     position: relative;
@@ -356,6 +372,10 @@ span {
 
   form {
     margin-block-end: 113px;
+  }
+
+  h1 {
+    line-height: 71.1px;
   }
 
   h3 {
